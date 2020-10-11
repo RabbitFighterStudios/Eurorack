@@ -43,15 +43,18 @@ Since most of the time in math, we think about the Y-Axis as some kind of "amoun
 So when you think about ADSR, and plot it on a graph, every graph I've ever seen is basically a curved graph of attack, decay, sustain, and release plotted
 horizontally on the X-Axis over time. But to save space, most manufacturer's lay out thier EG's like so:
 
-| A | (0%-100%) |
-| D | (0%-100%) |
-| S | (0%-100%) |
-| R | (0%-100%) |
+| Event | Level   |
+| ----- | ------- |
+| A     | (0-100) |
+| D     | (0-100) |
+| S     | (0-100) |
+| R     | (0-100) |
 
 rather than:
 
-| (0%-100%) | (0%-100%) | (0%-100%) | (0%-100%) |
-| A | D | S | R |
+| (0-100) | (0-100) | (0-100) | (0-100) |
+| ------- | ------- | ------- | ------- |
+| A       | D       | S       | R       |
 
 which forces the user to invert the axis and that can throw a lot of people of, and is not intuitive in any way unless you really really get
 ADSR on a conceptual level and understand that they are event behaviora over time, and that a linear layout would be nice.
